@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Noto+Sans+JP&display=swap');
+body{
+    font-family: 'Jost','Noto Sans JP', sans-serif;
+}
+.container{
+    margin-top: 5%;
+}
+.butn{
+    margin-left:auto;
+}
+.flyer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: dense;
+    width: 60vw;
+    height: 84vw;
+    margin-left: 20%;
+}
+.imp1{
+    grid-row: span 2;
+    grid-column: span 4;
+}
+.imp2{
+    grid-row: span 2;
+    grid-column: span 2;
+    background-color: #FFF000;
+}
+.imp3{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color: #FFF000;
+    font-size: 2rem;
+
+}
+.imp4{
+
+    
+}
+.imp5{
+
+    
+}
+.imp6{
+
+    
+}
+
+.item{
+    border: 2px solid #E60013;
+    margin: 3px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.up{
+    grid-column: span 1;
+}
+.up2{
+    grid-column: span 2;
+}
+.down{
+ height: 100%;
+ grid-column: span 1;
+}
+.right{
+    height: 100%;
+    grid-column: span 1;
+    font-size: 15px;
+}
+.left{
+    grid-column: span 2;
+}
+.position{
+    position: absolute;
+    bottom: 3%;
+    right: -8%;
+    font-weight: 600;
+    transform: scale( 0.6 , 1 );
+    font-size: 3rem;
+}
+.price{
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    color: #E60013;
+
+}
+.flyermade{
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+img{
+    height: 100%;
+    /*display: block;
+    margin-top: 20%;*/
+}

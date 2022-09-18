@@ -1,0 +1,4 @@
+owner: ichl01
+repo: autoflyer
+provider: github
+updaterCacheDirName: autoflyer-updater

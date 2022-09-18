@@ -1,0 +1,27 @@
+{
+  "name": "autoflyer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichl01/autoflyer.git"
+  },
+  "author": "ichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichl01/autoflyer/issues"
+  },
+  "homepage": "https://github.com/ichl01/autoflyer#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.1",
+    "electron": "^6.1.12"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
